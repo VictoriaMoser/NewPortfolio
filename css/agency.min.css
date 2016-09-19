@@ -36,4 +36,12 @@ header .intro-text .intro-heading {
 
 ul.social-buttons li a:hover {
     background-color: #aa00ff;
+    transition: all 300ms ease-in;
+}
+.btn-xl:hover {
+  transition: all 300ms ease-in !important;
+}
+
+.fa-heart:before {
+  color: #aa00ff;
 }
