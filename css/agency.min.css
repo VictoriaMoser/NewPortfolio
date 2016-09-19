@@ -33,3 +33,7 @@ header .intro-text .intro-heading {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
     font-weight: 500;
 }
+
+ul.social-buttons li a:hover {
+    background-color: #aa00ff;
+}
