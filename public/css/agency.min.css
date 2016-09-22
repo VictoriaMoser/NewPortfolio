@@ -32,7 +32,7 @@
 header .intro-text .intro-heading {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
     font-weight: 500;
-    color: #aa00ff;
+    color: #fff;
 }
 
 ul.social-buttons li a:hover {
@@ -42,4 +42,29 @@ ul.social-buttons li a:hover {
 
 .fa-heart:before {
   color: #aa00ff;
+}
+
+.intro-text a {
+    margin-top: 30px!important;
+}
+
+.btn-xl {
+  padding: 6px 12px!important;
+}
+
+.modal-body p {
+  text-align: left;
+}
+
+section h3.section-subheading {
+  margin-bottom: 40px;
+}
+
+section#contact {
+  background-image: none !important;
+  background-color: #eee;
+}
+
+section#contact .section-heading {
+    color: #222!important;
 }
