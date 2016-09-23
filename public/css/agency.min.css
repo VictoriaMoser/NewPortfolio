@@ -68,3 +68,7 @@ section#contact {
 section#contact .section-heading {
     color: #222!important;
 }
+
+.navbar-custom .navbar-brand {
+    font-family: "Droid Serif","Helvetica Neue","Helvetica","Arial","sans-serif" !important;
+}
