@@ -6,6 +6,7 @@
 body {
     overflow-x: hidden;
     @include body-font;
+    text-decoration: none !important;
 }
 
 .text-muted {
@@ -31,10 +32,12 @@ a:focus,
 a:active,
 a.active {
     outline: none;
+    text-decoration: none !important;
 }
 
 a {
     color: $theme-primary;
+    text-decoration: none !important;
 }
 
 a:hover,
@@ -42,6 +45,7 @@ a:focus,
 a:active,
 a.active {
     color: darken($theme-primary, 10%);
+    text-decoration: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -735,6 +739,7 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: $theme-primary;
+    text-decoration: none !important;
 }
 
 /* custom styles */

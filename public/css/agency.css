@@ -26,15 +26,18 @@ a:focus,
 a:active,
 a.active {
   outline: none;
+  text-decoration: none !important;
 }
 a {
   color: #00acc1;
+  text-decoration: none !important;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #aa00ff;
+  text-decoration: none !important;
 }
 h1,
 h2,
@@ -743,6 +746,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #00acc1;
+  text-decoration: none !important;
 }
 
 /* custom styles */
@@ -751,5 +755,9 @@ body {
 }
 
 .intro-text a {
-    margin-top:50px!important;
+    margin-top:70px!important;
+}
+
+a {
+  text-decoration: none !important;
 }
