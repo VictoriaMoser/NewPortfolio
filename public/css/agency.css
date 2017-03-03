@@ -761,3 +761,12 @@ body {
 a {
   text-decoration: none !important;
 }
+
+a #logo img{
+    /*margin: 0 !important;
+    padding-top: 0 !important;*/
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 50px;
+}
